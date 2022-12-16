@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+
+.i-clor {
+    color: chartreuse;
+}
+
+
+.st-clor{
+    color: whitesmoke;
+}
+
+/* anchor tag */
+a.nav-link {
+    color: whitesmoke;
+}
+a.nav-link:hover {
+    color: rgb(9, 8, 8);
+    background-color: rgb(245, 184, 72);
+}
+a.nav-link.active {
+    color: rgb(9, 8, 8);
+    background-color: rgb(255, 235, 11);
+}

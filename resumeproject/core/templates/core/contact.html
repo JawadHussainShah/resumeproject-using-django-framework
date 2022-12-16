@@ -1,0 +1,51 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">Contact Us</h1>
+    <div class="row text-white mb-5">
+        <p class="mx-auto mb-5">
+            Do you any question? Please contact us. I will
+            back to you soon. Thanks!
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="inputname">Your Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputmail">Your Email *</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="inputname">Your Subject</label>
+                    <input type="text" class="form-control" id="subject">
+                </div>
+                <div class="mb-3">
+                    <label for="inputname">Your Message *</label>
+                    <textarea class="form-control" id="message"></textarea>
+                </div>
+                <button class="btn btn-primary"  type="submit">Send</button>
+            </form>
+        </div>
+        <div class="col-sm-3 text-center">
+            <ul class="list-unstyled">
+                <li class="fas fa-map-marker-alt fa-2x i-clor"></li>
+                <p>BTM, KPK, Pak</p>
+                <li class="fas fa-phone mt-4 fa-2x i-clor"></li>
+                <p>+9200203039</p>
+                <li class="fas fa-envelope mt-4 fa-2x i-clor"></li>
+                <p>abc@gmail.com</p>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="text-center">
+    <a href="#"><i class="fab fa-twitter i-color mx-3 "></i></a>
+    <a href="#"><i class="fab fa-facebook i-color mx-3 "></i></a>
+    <a href="#"><i class="fab fa-instagram i-color mx-3 "></i></a>
+</div>
+{% endblock content %}
